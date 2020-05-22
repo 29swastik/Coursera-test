@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+
+}
+
+h1 {
+
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+
+
+
+.menu1 h2{
+
+	background-color: lightpink;
+	position: relative;
+	text-align: center;
+	
+}
+
+.menu2 h2{
+
+	background-color: red;	
+	text-align: center;
+	
+}
+
+
+.menu3 h2{
+
+	background-color: yellow;
+	text-align: center;
+
+}
+
+section{
+	position: relative;
+}
+
+
+
+
+section > div{
+  border: 3px solid black;
+  padding: 10px;
+  background-color: lightgrey;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  color: black;
+  
+}
+
+
+section > div >h2{
+  
+  border: 1px solid black;
+  margin-right: -10px;
+  margin-left: 200px;
+  color: black;
+  margin-top: -10px;
+
+  
+}
+
+
+.menu1, .menu2, .menu3{
+	float: left;
+	width: 100%;
+}
+
+@media (min-width: 992px){
+	.menu1,.menu2,.menu3{
+		float: left; 
+		width: 33.33%
+
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.menu1,.menu2,.menu3{
+		float: left;
+		width: 50%;
+	}
+}
+
