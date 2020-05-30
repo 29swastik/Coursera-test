@@ -1,0 +1,149 @@
+body{
+
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+	background-color: #c2c2a3;
+}
+
+#header-nav{
+
+  	background-color: #ffff00;
+    border-radius: 0;
+    border: 1px solid #000;
+}
+
+.navbar-brand h1{
+
+  	font-family: 'Lora', serif;
+  	float: left;
+  	color: #c653c6;
+  	font-size: 1.5em;
+  	text-transform: uppercase;
+  	font-weight: bolder;
+  	text-shadow: 1px 1px 1px #222;
+  	margin-top: 0px;
+  	margin-bottom: 0;
+  	line-height: .5;
+  	padding-top: 5px;
+
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-toggle{
+	background-color: #fff;
+}
+
+h2{
+	font-family: 'Lora', serif;
+  	color: #1a0d00;
+  	text-align: center;
+  	margin-top: 50px;
+  	font-size: 2em;
+  	font-weight: bold;
+  	text-shadow: 1px 1px 1px #222;
+  	line-height: .75;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #000000;
+  font-weight: 700;
+  font-size: 1.2em;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #fff;
+}
+
+h3{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: -10px;
+	margin-right: -10px;
+	margin-left: -10px;
+	background-color: #ffc0cb;
+	font-weight: bold;
+	color: #461a9b;
+}
+
+#chicken{
+	background-color: #92786f;
+	color: #ffff00;
+	padding: 10px;
+	margin: 50px auto 30px;
+	overflow: auto;
+}
+
+#beef{
+	background-color: #92786f;
+	padding: 10px;
+	color: #ffff00;
+	margin-bottom: 30px;
+	margin: 0px auto 0px;
+	overflow: auto;
+	
+}
+
+#sushi{
+	background-color: #92786f;
+	padding: 10px;
+	color: #ffff00;
+	margin: 30px auto 0px;
+	overflow: auto;
+
+}
+
+#chicken a{
+
+	float: right;
+	color: #000;
+}
+
+#beef a{
+
+	float: right;
+	color: #000;
+}
+
+#sushi a{
+
+	float: right;
+	color: #000;
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+@media (max-width: 767px){
+
+	.navbar-brand h1{
+		font-size: 2em;
+	}
+
+	#chicken{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	#sushi{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	#beef{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+}
